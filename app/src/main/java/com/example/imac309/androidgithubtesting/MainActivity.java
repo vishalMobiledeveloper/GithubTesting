@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toast.makeText(getApplicationContext(),"Called",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Called android",Toast.LENGTH_LONG).show();
     }
 
     @Override
